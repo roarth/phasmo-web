@@ -1,0 +1,26 @@
+$white: #fff;
+$black: #000;
+
+body {
+  background-color: $black;
+  color: $white;
+}
+
+#root {
+  h1 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    left: 50%;
+  }
+  .pTitle {
+    font-family: 'Syne Mono', monospace;
+
+    img {
+      width: 50px;
+      margin-right: 10px;
+    }
+  }
+}
